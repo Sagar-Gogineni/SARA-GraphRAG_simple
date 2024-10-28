@@ -2,7 +2,7 @@
 name = "graph-rag"
 version = "0.1.0"
 description = ""
-authors = ["BraveMongo <bravemongo@gmail.com>"]
+authors = ["SagarGogineni <contact.sagargr@gmail.com>"]
 readme = "README.md"
 packages = [{include = "graph_rag"}]
 
