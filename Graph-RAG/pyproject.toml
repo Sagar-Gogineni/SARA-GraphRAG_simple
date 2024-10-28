@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "graph-rag"
+version = "0.1.0"
+description = ""
+authors = ["BraveMongo <bravemongo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "graph_rag"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+urllib3 = "1.26.19"
+llama-index-llms-openai = "^0.2.16"
+llama-index-vector-stores-neo4jvector = "^0.2.3"
+llama-index-embeddings-openai = "^0.2.5"
+neo4j = "^5.25.0"
+llama-index-graph-stores-neo4j = "^0.3.5"
+langchain = "^0.3.4"
+langchain-openai = "^0.2.3"
+streamlit = "^1.39.0"
+streamlit-lottie = "^0.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

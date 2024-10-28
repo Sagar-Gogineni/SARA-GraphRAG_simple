@@ -1,0 +1,9 @@
+
+NEO4J_URI='url'
+NEO4J_USERNAME='neo4j'
+NEO4J_PASSWORD='password'
+AURA_INSTANCEID=''
+AURA_INSTANCENAME=''
+OPENAI_API_KEY="api key"
+QDRANT_URL="not used"
+QDRANT_API_KEY="not used"
